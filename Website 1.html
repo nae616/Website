@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Nikora</title>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+</head>
+<body>
+  <div class="top-menu">
+    <nav class="list-nav">
+        <ul class="list-nav__items"> 
+        <li>
+        <a class="list-nav__link link " href="https://domashniy.com.ua/ua/o-nas" target="_self"> Про нас </a> 
+        </li>
+         <li> 
+            <a class="list-nav__link link " href="https://domashniy.com.ua/ua/dostavka-i-vozvrat" target="_self"> Доставка та оплата </a>
+         </li>
+         <li> 
+            <a class="list-nav__link link " href="https://domashniy.com.ua/ua/shop/brand" target="_self"> Виробники </a>
+         </li> 
+         <li> 
+            <a class="list-nav__link link " href="https://domashniy.com.ua/ua/novosti" target="_self"> Новини </a> 
+        </li> 
+         <li> 
+            <a class="list-nav__link link " href="https://domashniy.com.ua/ua/kontakty" target="_self"> Контакти </a>
+         </li> 
+         <li> 
+            <a class="list-nav__link link " href="https://domashniy.com.ua/ua/tekstil-optom" target="_self"> ОПТ </a>
+         </li> 
+         <li> 
+            <a class="list-nav__link link " href="https://domashniy.com.ua/ua/aktsii" target="_self"> АКЦії </a>
+         </li> 
+        </ul> 
+        </nav>
+</div>
+<div class="header">
+<div class="header-picture">
+<img src="logo_nikora1.jpg" alt="Logo Nikora"class="logo">
+</div>
+<div class="header-phones">
+<img src="icon-phone.gif" class="custom-icon" />
+<p class="phone">(096) 761-70-39</p>
+<p class="phone">(063) 268-96-42</p>
+</div>
+<div class="header-time">
+<img src="icon-clock.gif" class="custom-icon" />
+<p class="phone">пн-пт: 09:00-20:00</p>
+<p class="phone">сб-нд: 09:00-18:00</p>
+<p class="phone">онлайн: кожен день</p>
+</div>
+<div>
+<img src="icon-user.gif" class="custom-icon" />
+<a class="cabinet" href="/ua/login/">Особистий кабінет</a>
+</div>
+<div>
+<img src="icon-heart.gif" class="custom-icon" />
+<a class="list-nav__link link " href="" target="_self"> Улюблене </a>
+</div>
+<div>
+<img src="icon-shopping.gif" class="custom-icon" />
+<a class="cabinet" href="/ua/login/">Кошик</a>
+</div>
+</div>
+<div class="search ">
+<form action="/search" method="get">
+<input type="search" name="q" placeholder="Пошук...">
+<button type="submit" class="batt-search">Знайти</button>
+</form>
+</div>
+<div class="leftcol-content">
+<div class="leftcol">
+  <ul class="main-menu">
+    <span><li class="menu-item">
+      <img src="coins.png" class="menu-icon" />
+      <a href="https://yaroslav.ua/ua/stock/">Акційний товар</a>
+    </li></span>
+  <span><li class="menu-item">
+    <img src="bed.png" class="menu-icon" />
+      <a href="https://yaroslav.ua/ua/stock/">Постільна білизна</a>
+    </li></span>
+  <span><li class="menu-item">
+    <img src="pillows.png" class="menu-icon" />
+    <a href="https://yaroslav.ua/ua/stock/">Подушки</a>
+  </li></span>
+  <span><li class="menu-item">
+    <img src="blankie.png" class="menu-icon" />
+    <a href="https://yaroslav.ua/ua/stock/">Покривала</a>
+  </li></span>
+  <span><li class="menu-item">
+    <img src="plaid.png" class="menu-icon" />
+    <a href="https://yaroslav.ua/ua/stock/">Пледи</a>
+  </li></span>
+  <span><li class="menu-item">
+    <img src="mattress.png" class="menu-icon" />
+    <a href="https://yaroslav.ua/ua/stock/">Наматрацники</a>
+  </li></span>
+  <span><li class="menu-item">
+    <img src="mattress1.png" class="menu-icon" />
+    <a href="https://yaroslav.ua/ua/stock/">Простирадла на резинці</a>
+  </li></span>
+  <span><li class="menu-item">
+    <img src="towels.png" class="menu-icon" />
+    <a href="https://yaroslav.ua/ua/stock/">Рушники</a>
+  </li></span>
+  <span><li class="menu-item">
+    <img src="hotel.png" class="menu-icon" />
+    <a href="https://yaroslav.ua/ua/stock/">Для готелів</a>
+  </li></span>
+  <span><li class="menu-item">
+    <img src="t-shirt.png" class="menu-icon" />
+    <a href="https://yaroslav.ua/ua/stock/">Одяг</a>
+  </li></span>
+  </ul>
+</div>
+<div class="content">
+  <div class="slider">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="sliderphoto1.jpeg"></div>
+        <div class="swiper-slide"><img src="sliderphoto2.jpeg"></div>
+        <div class="swiper-slide"><img src="sliderphoto3.jpeg"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+  </div>
+  <div class="novinki">
+    <p>Новинки</p>
+    <hr>
+  </div>
+<div class="tovar1">
+<div class="photo-prise">
+    <img src="photo1.jpeg" class="content-photo"/>
+      <div class="info-photo">
+      <a href="https://yaroslav.ua/ua/stock/">Комплект постільної білизни бязь Gold</a><br>
+      <span>від 1990 грн</span><br>
+      <button class="batt-info">Придбати</button>
+      </div>
+    </div>  
+    <div class="photo-prise">
+      <img src="photo2.jpg" class="content-photo"/>
+      <div class="info-photo">
+        <a href="https://yaroslav.ua/ua/stock/">Комплект постільної білизни бязь Gold</a><br>
+        <span>від 1990 грн</span><br>
+        <button class="batt-info">Придбати</button>
+      </div>
+      </div>
+      <div class="photo-prise">
+        <img src="photo3.jpg" class="content-photo"/>
+        <div class="info-photo">
+          <a href="https://yaroslav.ua/ua/stock/">Комплект постільної білизни бязь Gold</a><br>
+          <span>від 1990 грн</span><br>
+          <button class="batt-info">Придбати</button>
+        </div>
+        </div>
+        <div class="photo-prise">
+          <img src="photo4.jpg" class="content-photo"/>
+          <div class="info-photo">
+            <a href="https://yaroslav.ua/ua/stock/">Комплект постільної білизни бязь Gold</a><br>
+            <span>від 1990 грн</span><br>
+            <button class="batt-info">Придбати</button>
+          </div>
+          </div>
+  </div>
+  <div class="novinki">
+    <p>Акції</p>
+    <hr>
+  </div>
+  <div class="tovar1">
+    <div class="photo-prise">
+        <img src="photo5.jpeg" class="content-photo"/>
+          <div class="info-photo">
+          <a href="https://yaroslav.ua/ua/stock/">Комплект постільної білизни бязь Gold</a><br>
+          <span>від 1990 грн</span><br>
+          <button class="batt-info">Придбати</button>
+          </div>
+        </div>
+        <div class="photo-prise">
+          <img src="photo6.jpeg" class="content-photo"/>
+          <div class="info-photo">
+            <a href="https://yaroslav.ua/ua/stock/">Комплект постільної білизни бязь Gold</a><br>
+            <span>від 1990 грн</span><br>
+            <button class="batt-info">Придбати</button>
+          </div>
+          </div>
+          <div class="photo-prise">
+            <img src="photo7.jpg" class="content-photo"/>
+            <div class="info-photo">
+              <a href="https://yaroslav.ua/ua/stock/">Комплект постільної білизни бязь Gold</a><br>
+              <span>від 1990 грн</span><br>
+              <button class="batt-info">Придбати</button>
+            </div>
+            </div>
+            <div class="photo-prise">
+              <img src="photo8.jpeg" class="content-photo"/>
+              <div class="info-photo">
+                <a href="https://yaroslav.ua/ua/stock/">Комплект постільної білизни бязь Gold</a><br>
+                <span>від 1990 грн</span><br>
+                <button class="batt-info">Придбати</button>
+              </div>
+              </div>
+      </div>
+      <div class="novinki">
+        <p>Топ продаж</p>
+        <hr>
+      </div>
+      <div class="tovar1">
+        <div class="photo-prise">
+            <img src="photo9.jpg" class="content-photo"/>
+              <div class="info-photo">
+              <a href="https://yaroslav.ua/ua/stock/">Комплект постільної білизни бязь Gold</a><br>
+              <span>від 1990 грн</span><br>
+              <button class="batt-info">Придбати</button>
+              </div>
+            </div>
+            <div class="photo-prise">
+              <img src="photo10.jpg" class="content-photo"/>
+              <div class="info-photo">
+                <a href="https://yaroslav.ua/ua/stock/">Комплект постільної білизни бязь Gold</a><br>
+                <span>від 1990 грн</span><br>
+                <button class="batt-info">Придбати</button>
+              </div>
+              </div>
+              <div class="photo-prise">
+                <img src="photo11.jpg" class="content-photo"/>
+                <div class="info-photo">
+                  <a href="https://yaroslav.ua/ua/stock/">Комплект постільної білизни бязь Gold</a><br>
+                  <span>від 1990 грн</span><br>
+                  <button class="batt-info">Придбати</button>
+                </div>
+                </div>
+                <div class="photo-prise">
+                  <img src="photo12.jpg" class="content-photo"/>
+                  <div class="info-photo">
+                    <a href="https://yaroslav.ua/ua/stock/">Комплект постільної білизни бязь Gold</a><br>
+                    <span>від 1990 грн</span><br>
+                    <button class="batt-info">Придбати</button>
+                  </div>
+                  </div>
+          </div>
+          <div class="novinki">
+            <p>Подушки</p>
+            <hr>
+          </div>
+          <div class="tovar1">
+            <div class="photo-prise">
+                <img src="photo13.jpeg" class="content-photo"/>
+                  <div class="info-photo">
+                  <a href="https://yaroslav.ua/ua/stock/">Набір подушок з холофайбера 70х50</a><br> 
+                  <span>від 700 грн</span><br>
+                  <button class="batt-info">Придбати</button>
+                  </div>
+                </div>
+                <div class="photo-prise">
+                  <img src="photo14.jpeg" class="content-photo"/>
+                  <div class="info-photo">
+                    <a href="https://yaroslav.ua/ua/stock/">Подушка з холофайбера 70х50</a><br>
+                    <span>від 250 грн</span><br>
+                    <button class="batt-info">Придбати</button>
+                  </div>
+                  </div>
+                  <div class="photo-prise">
+                    <img src="photo15.jpeg" class="content-photo"/>
+                    <div class="info-photo">
+                      <a href="https://yaroslav.ua/ua/stock/">Подушка з холофайбера 70х50</a><br>
+                      <span>від 230 грн</span><br>
+                      <button class="batt-info">Придбати</button>
+                    </div>
+                    </div>
+                    <div class="photo-prise">
+                      <img src="photo17.jpg" class="content-photo"/>
+                      <div class="info-photo">
+                        <a href="https://yaroslav.ua/ua/stock/">Подушка дитяча з холофайбера 40х50</a><br>
+                        <span>від 200 грн</span><br>
+                        <button class="batt-info">Придбати</button>
+                      </div>
+                      </div>
+              </div>
+</div>
+</div>
+<div class="footer">
+  <div class="footer-column">
+  <div class="footer-title">Магазин</div>
+  <ul class="footer-items">
+    <div class="foot-er">
+  <li class="footer-item-active">
+  <a class="footer-link" href="https://domashniy.com.ua" target="_self">Головна</a>
+  </li></div>
+<div class="foot-er">
+  <li class="footer-item">
+  <a class="footer__link" href="https://domashniy.com.ua/dostavka-i-vozvrat" target="_self">Доставка та оплата</a>
+  </li></div>
+<div class="foot-er">
+  <li class="footer-item">
+  <a class="footer__link" href="https://domashniy.com.ua/kontakty" target="_self">Контакти</a>
+  </li></div>
+  </ul>
+</div>
+  <div class="footer-column">
+  <div class="footer__title">Користувач</div>
+  <ul class="footer__items">
+  <div class="foot-er">
+  <li class="footer__item">
+  <a class="footer__link" href="https://domashniy.com.ua/auth" data-modal="" rel="nofollow">Вхід</a>
+  </li></div>
+<div class="foot-er">
+  <li class="footer__item">
+  <a class="footer__link" href="https://domashniy.com.ua/auth/register" rel="nofollow">Реєстрація</a>
+  </li></div>
+<div class="foot-er">
+  <li class="footer__item">
+  <a class="footer__link" href="https://domashniy.com.ua/shop/compare" rel="nofollow">Порівнення</a>
+  </li></div>
+  </ul>
+  </div>
+  <div class="footer-column">
+  <div class="footer__title">Контакти</div>
+  <ul class="footer__items">
+    <div class="foot-er">
+  <li class="footer__item">Україна, будь-яке відділення Нової Пошти</li></div>
+  <div class="foot-er">
+  <li class="footer__item">(097) 066-39-27</li></div>
+  <div class="foot-er">
+  <li class="footer__item">(050) 721-26-24</li></div>
+  <div class="foot-er">
+  <li class="footer__item">(063) 218-30-34</li></div>
+  <div class="foot-er">
+  <li class="footer__item">info@domashniy.com.ua</li></div>
+  <div class="foot-er">
+  <li class="footer__item">
+  <a class="footer__link" href="https://domashniy.com.ua/feedback" data-modal="feedback_modal" rel="nofollow">Зворотній зв'язок</a>
+  </li></div>
+  <div class="foot-er">
+  <li class="footer__item">
+  <div class="frame_form_search"> 
+  <form action="https://domashniy.com.ua/mailer" method="post"> 
+  <div class="footer-title" style="color: RGB(255, 255, 255); margin-bottom: 9px;">Залиште свою електронну пошту та отримайте інформацію про найближчі знижки та акції</div>
+  <input type="text" placeholder="Ваш E-mail" name="user_email" class="e-mail"><br> 
+  <label style="display:none;">
+  <input type="radio" name="add_user_mail" checked="true" value="2">Підписатися<br>
+  </label>
+  <button type="submit" style="height: 32px; line-height: 32px;">
+  <span class="text-el" style="font-weight: bold; font-size: 12px;">Підписатися</span>
+  </button>
+  </div>
+  <input type="hidden" value="c17660ada054273b42be733a2d8ef575" name="cms_token">
+  </form>
+  </div>
+  </li>
+  </ul>
+  </div>
+</div>
+</body>
+</html>
